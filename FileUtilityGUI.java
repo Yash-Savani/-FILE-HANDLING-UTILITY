@@ -18,7 +18,6 @@ public class FileUtilityGUI extends JFrame {
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setLayout(new BorderLayout());
 
-        // Top Panel
         JPanel topPanel = new JPanel(new FlowLayout());
 
         fileNameField = new JTextField(25);
@@ -40,11 +39,9 @@ public class FileUtilityGUI extends JFrame {
 
         add(topPanel, BorderLayout.NORTH);
 
-        // Text Area
         textArea = new JTextArea();
         add(new JScrollPane(textArea), BorderLayout.CENTER);
 
-        // Search & Replace Panel
         JPanel bottomPanel = new JPanel(new FlowLayout());
         searchField = new JTextField(10);
         replaceField = new JTextField(10);
@@ -58,7 +55,6 @@ public class FileUtilityGUI extends JFrame {
 
         add(bottomPanel, BorderLayout.SOUTH);
 
-        // Button Actions
         newFileButton.addActionListener(e -> createNewFile());
         openButton.addActionListener(e -> chooseFile());
         saveButton.addActionListener(e -> saveToFile(false));
