@@ -62,3 +62,5 @@ The concepts covered in this task are widely applicable in many real-world softw
 **Conclusion:**
 
 This task significantly boosted my confidence in using Java for file-related operations. Working in **Spring Tool Suite (STS)** provided a smooth and developer-friendly environment for building and testing Java applications. By implementing this console-based file manager, I not only improved my grasp on Java I/O but also learned how to handle exceptions gracefully, validate user inputs, and interact with the file system programmatically. The experience gained here will undoubtedly be useful in more complex projects involving data persistence, file analysis, and backend processing.
+
+![Image](https://github.com/user-attachments/assets/d2f0265a-501b-4497-ab28-4560a0b34001)
